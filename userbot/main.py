@@ -29,20 +29,20 @@ import re
 import userbot.cmdhelp
 
 DIZCILIK_STR = [
-    "Çıkartmayı dızlıyorum...",
-    "Yaşasın dızcılık...",
-    "Bu çıkartmayı kendi paketime davet ediyorum...",
-    "Bunu dızlamam lazım...",
-    "Hey bu güzel bir çıkartma!\nHemen dızlıyorum..",
-    "Çıkartmanı dızlıyorum\nhahaha.",
-    "Hey şuraya bak. (☉｡☉)!→\nBen bunu dızlarken...",
-    "Güller kırmızı menekşeler mavi, bu çıkartmayı paketime dızlayarak havalı olacağım...",
+    "Çıkartmayı dızlıyıram...",
+    "Yaşasın dızcılıx...",
+    "Bu stikeri öz paketime dəvet edirəm...",
+    "Bunu dızlamalıyam...",
+    "Hey bu gözək bir stiker!\nHemen dızlıyıram..",
+    "Çıkartmanı dızlıyram\nhahaha.",
+    "Hey bura bax. (☉｡☉)!→\nBen bunu dızlarken...",
+    "Güller qırmızı menekşeler mavi, bu çıkartmayı paketime dızlayarak havalı olacağım...",
     "Çıkartma hapsediliyor...",
     "Bay dızcı bu çıkartmayı dızlıyor... ",
 ]
 
 AFKSTR = [
-    "Şu an acele işim var, daha sonra mesaj atsan olmaz mı? Zaten yine geleceğim.",
+    "Bu saat Tələsirəm, daha sonra mesaj atsan olmaz mı? Onsuz yine geleceyem.",
     "Aradığınız kişi şu anda telefona cevap veremiyor. Sinyal sesinden sonra kendi tarifeniz üzerinden mesajınızı bırakabilirsiniz. Mesaj ücreti 49 kuruştur. \n`biiiiiiiiiiiiiiiiiiiiiiiiiiiiip`!",
     "Birkaç dakika içinde geleceğim. Fakat gelmezsem...\ndaha fazla bekle.",
     "Şu an burada değilim, muhtemelen başka bir yerdeyim.",
