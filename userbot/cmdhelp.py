@@ -81,9 +81,9 @@ class CmdHelp:
                 result += f"**🛠 Komut:** `{PATTERNS[:1]}{command['command']} {command['params']}`\n"
                 
             if command['example'] == None:
-                result += f"**💬 Açıklama:** `{command['usage']}`\n\n"
+                result += f"**💬 Açıqlama:** `{command['usage']}`\n\n"
             else:
-                result += f"**💬 Açıklama:** `{command['usage']}`\n"
+                result += f"**💬 Açıqlama:** `{command['usage']}`\n"
                 result += f"**⌨️ Örnek:** `{PATTERNS[:1]}{command['example']}`\n\n"
         return result
 
