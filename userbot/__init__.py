@@ -385,7 +385,7 @@ Hesabınızı bot'a çevirebilirsiniz ve bunları kullanabilirsiniz. Unutmayın,
             if CMD_HELP_BOT[cmd]['info']['info'] == '':
                 if not CMD_HELP_BOT[cmd]['info']['warning'] == '':
                     result += f"**⬇️ Official:** {'✅' if CMD_HELP_BOT[cmd]['info']['official'] else '❌'}\n"
-                    result += f"**⚠️ Uyarı:** {CMD_HELP_BOT[cmd]['info']['warning']}\n\n"
+                    result += f"**⚠️ Xəbərdarlıq:** {CMD_HELP_BOT[cmd]['info']['warning']}\n\n"
                 else:
                     result += f"**⬇️ Official:** {'✅' if CMD_HELP_BOT[cmd]['info']['official'] else '❌'}\n\n"
             else:
@@ -404,7 +404,7 @@ Hesabınızı bot'a çevirebilirsiniz ve bunları kullanabilirsiniz. Unutmayın,
                 result += f"**💬 Açıklama:** `{command['usage']}`\n\n"
             else:
                 result += f"**💬 Açıklama:** `{command['usage']}`\n"
-                result += f"**⌨️ Örnek:** `{PATTERNS[:1]}{command['example']}`\n\n"
+                result += f"**⌨️ Nümunə:** `{PATTERNS[:1]}{command['example']}`\n\n"
 
             await event.edit(
                 result,
@@ -414,7 +414,7 @@ Hesabınızı bot'a çevirebilirsiniz ve bunları kullanabilirsiniz. Unutmayın,
     except Exception as e:
         print(e)
         LOGS.info(
-            "Botunuzda inline desteği devre dışı bırakıldı. "
+            "Botunuzda inline dəstəyi servis xaricindədir. "
             "Etkinleştirmek için bir bot token tanımlayın ve botunuzda inline modunu etkinleştirin. "
             "Eğer bunun dışında bir sorun olduğunu düşünüyorsanız bize ulaşın."
         )
